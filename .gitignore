@@ -1,0 +1,76 @@
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables and Drivers
+*.exe
+*.out
+*.app
+*.sys
+
+# Debug and Symbol files
+*.pdb
+*.ipdb
+*.iobj
+*.ilk
+*.dmp
+
+# Visual Studio specific
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.tlog
+*.log
+*.idb
+*.VC.db
+*.VC.opendb
+
+# Build directories
+x64/
+x86/
+Debug/
+Release/
+ARM64/
+bld/
+[Bb]in/
+[Oo]bj/
+
+# Certificates (Generated during driver build)
+*.cer
+*.pfx
+*.snk
+
+# CMake (If used later)
+CMakeCache.txt
+CMakeFiles
+CMakeScripts
+Makefile
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
